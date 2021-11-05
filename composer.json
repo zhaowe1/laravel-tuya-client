@@ -1,0 +1,21 @@
+{
+    "name": "zhaowe1/laravel-tuya-client",
+    "description": "A Simple Tuya API client for Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelTuyaClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhaowei",
+            "email": "zhaowei3222@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^6.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
